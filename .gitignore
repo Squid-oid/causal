@@ -4,3 +4,6 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+*.md
+ch9/python_identification_analysis_of_401_k_example_w_dags.ipynb
+ch9/python_dml_401k.ipynb
