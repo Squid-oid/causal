@@ -5,5 +5,13 @@
 *.fdb_latexmk
 *.synctex.gz
 *.md
+*.pyc
 ch9/python_identification_analysis_of_401_k_example_w_dags.ipynb
 ch9/python_dml_401k.ipynb
+Book/ch14/CATE_inference.ipynb
+Book/ch14/datasets.py
+Book/ch14/myxgb.py
+Book/ch14/welfare-causal-forest.png
+Book/ch14/welfare-cf-marginal-plots.png
+Book/ch14/welfare-doubly-robust-forest.png
+Book/ch14/welfare-drrf-marginal-plots.png
