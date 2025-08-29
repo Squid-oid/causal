@@ -1,0 +1,37 @@
+\documentclass[10pt, english]{article}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage[margin=0.875in]{geometry}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+\begin{document}
+\title{Reflections on Chapter 15}
+\date{}
+\author{}
+
+\maketitle
+
+
+\section*{General Thoughts}
+This chapter might have been the single largest by pagecount chapter in the book, and when combined with the density of the material it certainly felt like it. The concrete examples of different learners and discussions of when they are
+applicable really helped cement ideas from the last chapter, as well as acting as a good review of earlier topics covered since it leans heavily on robustness, references plently of learners, touches on DML and Neyman orthogonality etc. 
+I think my favorite learner out of these is the X learner, for it's simplicity, while still covering a common edge case, of poorly partioned samples, or how to work in if you have a massive set of references for one case. In many ways it 
+also felt the most intuitive to me. The R learner is also a good tool since it's simple enough to remember and deploy relatively off the cuff, thopugh it has some relatively strong constraints on when it can be. The duobly robust learner felt
+like a relatively generally applicable model, as well as the T learner. 
+
+The rest of this chapter covering testing, validation and guarding against covariate shift was also quite interesting. While the covariate shift guarding may be very important I didn't feel like I took much away from it. Much more 
+valuable to me was the thorough exploration of how to validate and test the heterogeneous models, which contained some rather ingenous techniques, for instance in creating confidence intervals for the AUTOC and AUQCs. Though at times
+the actual practical implementation and clarity of what specifically is being fit or what properties should be satisfied in a real world setting felt unclear.
+
+\section*{Space for future reading}
+I think I need to read up more on covariate shifts, ideally from another source, with that as the primary focus before I'd feel confident in using those techniques as a part of this rather complex framework.
+
+\end{document}
