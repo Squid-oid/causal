@@ -1,0 +1,2 @@
+# causal
+A record of my work to self study causal inference from the book [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/). So far the repo only has my reflections on each of the chapters and some selected excercises (one to two per chapter), but soon I'll be uploading a short project demonstrating application, as well as pulling together a bit more of a summary of my thoughts and some selected highlights from the experience.
